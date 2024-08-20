@@ -97,6 +97,22 @@ a:hover{
   width: 100px;
 }
 
+.BAbtn{
+  background-color: var(--first-color);
+  padding: 15px;
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+  border-radius: 50%;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.Abtn{
+  text-decoration: none;
+  font-size: 24px;
+}
+
 
 /*! cursor start  */
 .circle {
@@ -119,6 +135,7 @@ a:hover{
   right: 30px;
   width: 60px;
   transition: all 0.5s ease;
+  z-index: 100;
 }
 
 .me:hover{

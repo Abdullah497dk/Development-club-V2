@@ -168,10 +168,10 @@ document.addEventListener('DOMContentLoaded', function() {
   playPauseButton.addEventListener('click', function() {
     if (audio.paused) {
       audio.play();
-      playPauseButton.innerHTML = `<i class="fa-regular fa-stop"></i>`;
+      playPauseButton.innerHTML = `<i class="fa-solid fa-stop Abtn"></i>`;
     } else {
       audio.pause();
-      playPauseButton.innerHTML = `<i class="fa-solid fa-play"></i>`;
+      playPauseButton.innerHTML = `<i class="fa-solid fa-play Abtn"></i>`;
     }
   });
 });
