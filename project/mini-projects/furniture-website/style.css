@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+    font-size: 16px;
+    color: rgb(221, 186, 228);
+    line-height: 17px;
+}
+
+.btn{
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 25px;
+    cursor: pointer;
+    color: rgb(53, 26, 78);
+    background-color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 3px solid rgb(187, 111, 187);
+    transition: ease .9s;
+}
+.btn:hover{
+    background-color: rgb(47, 25, 49);
+    color: white;
+}
+
+.container {
+    padding-left: 8%;
+    padding-right: 8%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) ,url(./website/b.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 199h;
+}
+
+nav ul li a{
+    color: rgb(161, 108, 161);
+    margin-inline-end: 20px;
+    text-decoration-style: wavy;
+    transition: ease .95s;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+}
+
+.navbar{
+    height: 18%;
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+
+}
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.row{
+    display: flex;
+    padding-top: 40px;
+    
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 95px;
+    font-style: italic;
+}
+
+.desc{
+    font-size: 23px;
+}
+
+h5{
+    color: white;
+}
+
+.cards .card{
+    max-width: 500px;
+    margin: auto;
+}
+ 
+.cards .card{
+    margin: 20px 15px;
+}
+
+.cards .card{
+    max-width: 500px;
+    margin: auto;
+}
+
+.card-1
+{
+    width: 180px;
+    height: 150px;
+    display: inline-block;
+    background-image: url(./website/a.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+    margin: 10px 15px;
+    transition: ease .9s;
+}
+
+.card-2
+{
+    width: 180px;
+    height: 150px;
+    display: inline-block;
+    background-image: url(./website/z.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+    margin: 10px 15px;
+    transition: ease .9s;
+}
+
+.card-3
+{
+    width: 180px;
+    height: 150px;
+    display: inline-block;
+    background-image: url(./website/indir\ \(4\).jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+    margin: 10px 15px;
+    transition: ease .9s;
+}
+
+.card-4
+{
+    width: 180px;
+    height: 150px;
+    display: inline-block;
+    background-image: url(./website/indir\ \(5\).jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+    margin: 10px 15px;
+    transition: ease .9s;
+}
+
+
+
+
+
+.card-1:hover{
+    transform: translateY(-10px);
+}
+.card-3:hover{
+    transform: translateY(-10px);
+}
+.card-2:hover{
+    transform: translateY(10px);
+}
+.card-4:hover{
+    transform: translateY(10px);
+}
+
+
+
+
+.card .card-head{
+    background-color: rgba(0,0,0,0.7);
+    font-size: 30px;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.card .card-head p{
+    font-size: 14px;
+}
+
+.card .card-head h5{
+    font-size: 20px;
+}
+
+.card .card-bottom{
+    position: absolute;
+    bottom: 28px;
+}
+
+

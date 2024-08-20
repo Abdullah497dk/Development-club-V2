@@ -49,7 +49,6 @@
 }
 
 
-
 @media screen and (min-width: 968px) {
   :root {
     --big-font-size: 3.5rem;
@@ -458,45 +457,36 @@ nav .menu {
   color: var(--skills-color);
 }
 .skills__html {
-  width: 95%;
+  width: 60%;
 }
 .skills__css {
-  width: 85%;
+  width: 25%;
 }
 .skills__js {
-  width: 5%;
+  width: 1%;
 }
-
-.skills__git {
-  width: 85%;
-}
-
-.skills__sourcetree {
-  width: 90%;
-}
-
 .skills__php {
   width: 1%;
 }
 
 .skills__python {
-  width: 35%;
+  width: 20%;
 }
 
-.skills__c {
-  width: 30%;
+.skills__blender {
+  width: 85%;
 }
 
-.skills__arduino {
-  width: 75%;
+.skills__unity {
+  width: 50%;
 }
 
-.skills__photoshop{
-  width: 65%;
+.skills__ne {
+  width: 20%;
 }
 
-.skills__cplus{
-  width: 35%;
+.skills__canva{
+  width: 85%;
 }
 
 .skills__img {
