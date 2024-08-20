@@ -159,3 +159,19 @@ function animateCircles() {
 
 animateCircles();
 //!moving mouse end
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var audio = document.getElementById('myAudio');
+  var playPauseButton = document.getElementById('playPauseButton');
+
+  playPauseButton.addEventListener('click', function() {
+    if (audio.paused) {
+      audio.play();
+      playPauseButton.innerHTML = `<i class="fa-regular fa-stop"></i>`;
+    } else {
+      audio.pause();
+      playPauseButton.innerHTML = `<i class="fa-solid fa-play"></i>`;
+    }
+  });
+});

@@ -88,6 +88,16 @@ ul {
 a:hover{
   text-decoration: underline;
 }
+
+.audio-b{
+  width: 50px;
+}
+
+.audio-b:hover{
+  width: 100px;
+}
+
+
 /*! cursor start  */
 .circle {
   height: 24px;
@@ -583,6 +593,24 @@ nav .menu {
   margin: 0.5rem 0;
 }
 
+.mini-projects{
+  margin: 40px 0 0 30px;
+  color: var(--first-color);
+  color: var(--main-color);
+}
+
+.mini-projects::after {
+  position: absolute;
+  content: "";
+  width: 64px;
+  height: 0.18rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 2rem;
+  background-color: var(--main-color);
+}
+
 .view-details {
   background: #007BFF;
   color: #fff;
@@ -654,7 +682,7 @@ nav .menu {
   margin-left: auto;
 }
 
-/* ===== FOOTER =====*/
+/*! ===== FOOTER =====*/
 .footer {
   background-color: var(--contact-bcc);
   color: #fff;

@@ -1,0 +1,144 @@
+    * {
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-image: url(forest.jpg);
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    header {
+        border-bottom: 1px solid rgb(78, 128, 78);
+        background-color: rgb(53, 50, 69);
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .header-left {
+        align-items: center;
+
+    }
+
+    .header-left .bi-tree {
+        color: green;
+    }
+
+    .header-left i {
+        color: rgb(214, 239, 214);
+    }
+
+    header i {
+        font-size: 23px;
+        cursor: pointer;
+    }
+
+    .header-center {
+        align-items: center;
+        display: flex;
+        margin-left: 100px;
+    }
+
+    .header-search {
+
+        padding: 6px;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+
+    }
+
+    .header-center input {
+        background-color: rgb(156, 167, 117);
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        font-size: 30px;
+    }
+
+    .header-search .bi-search {
+        font-size: 20px;
+        margin-left: 7px;
+    }
+
+
+    .header-right {
+        display: flex;
+        align-items: center;
+        column-gap: 23px;
+
+
+    }
+
+    .header-right .bi-house-door {
+
+        padding: 9px;
+
+        font-size: 30px;
+    }
+
+    .header-right .bi-person-plus {
+
+        padding: 9px;
+
+        font-size: 30px;
+    }
+
+    .header-right .bi-cash-coin {
+
+        padding: 9px;
+
+        font-size: 30px;
+    }
+
+    .header-right .bi-telephone {
+
+        padding: 9px;
+
+        font-size: 30px;
+    }
+
+
+    .page {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+
+        user-select: none;
+
+
+    }
+
+    .page h1 {
+        color: rgb(230, 241, 193);
+        font-size: 65px;
+        font-weight: bold;
+        width: 900px;
+        text-align: center;
+    }
+
+    .page .buttons {
+        margin: 35px 280px;
+    }
+
+    .buttons button {
+        height: 50px;
+        width: 150px;
+        font-size: 18;
+        background-color: rgb(156, 167, 117);
+        border: solid 1px rgb(32, 26, 26);
+        cursor: pointer;
+        outline: none;
+        border-radius: 25px;
+
+
+    }

@@ -10,7 +10,7 @@ nav {
     margin-top: 10px;
 }
 
-.logo{
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,8 +119,22 @@ nav .menu {
 }
 
 
-@media (max-width: 1044px) {
+.phone {
+    display: none;
+}
 
+@media (max-width: 1210px) {
+
+
+    .phone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .phoneC img {
+        margin-left: 20px;
+    }
 
     .menu .logo a {
         font-size: 30px;
@@ -174,4 +188,6 @@ nav .menu {
         width: 32px;
         height: 40px;
     }
+
+    
 }
